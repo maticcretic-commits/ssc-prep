@@ -30,6 +30,7 @@
     @media(max-width:520px){.wrap{width:min(100% - 24px,1160px)}.hero{padding-top:24px}.hero h1{font-size:3.7rem}.hero-visual{min-height:250px}.quickbar,.plan{grid-template-columns:1fr}.quickbar div{border-right:0;border-bottom:1px solid var(--line)!important}.quickbar div:last-child{border-bottom:0!important}section{padding:54px 0}.section-head h2{font-size:2.4rem}.exam-intro,.pattern{padding:20px}.pattern-row{grid-template-columns:1.35fr .65fr .65fr}.formula{grid-template-columns:1fr}.footer-grid{display:block}.footer .btn{display:inline-block;margin-top:18px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
   </style>
+<link rel="stylesheet" href="assets/topics.css">
 </head>
 <body>
 <header class="hero">
@@ -124,6 +125,17 @@
 })();
 </script>
 
+<!-- ==================== #topics — topic library (study material) ==================== -->
+<section class="topic-lib-sec" id="topics" aria-label="Study material by topic">
+<div style="max-width:1180px;margin:0 auto;padding:0 20px">
+<p class="tl-kicker">Study material</p>
+<h2 class="tl-h2">Learn it topic by topic</h2>
+<p class="tl-sub">Every card below opens a full study page for that topic — a plain-language explanation, key facts and tables, diagrams, and quick-revision questions with answers. The practice papers at the end are full timed mocks with instant scores and complete answer keys. Everything runs in your browser; nothing is sent anywhere.</p>
+<div id="topic-lib"></div>
+</div>
+</section>
+<script src="assets/topics-ssc.js"></script>
+<script src="assets/topics.js"></script>
 <section class="eph-comments" id="comments" aria-label="Comments and suggestions">
   <h2>Comments &amp; suggestions</h2>
   <p class="eph-comments-note">Spotted a mistake, an outdated date, or a missing topic? Leave a comment below &mdash; it helps improve this page for everyone.</p>
